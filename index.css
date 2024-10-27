@@ -722,7 +722,7 @@
     overflow: hidden;
 }
 .plan-icon{
-    min-width: 3rem;
+    width: 3rem;
     height: 3rem;
     display: flex;
     justify-content: center;
