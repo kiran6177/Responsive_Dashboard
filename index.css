@@ -786,6 +786,9 @@
 
 /* Media Queries */
 @media (min-width:370px) {
+    .sidebar-slide{
+        padding-top:7rem;
+    }
     .plan-main{
         max-width: 280px;
     }
