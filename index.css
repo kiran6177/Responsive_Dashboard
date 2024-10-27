@@ -442,6 +442,7 @@
     align-items: center;
     justify-content: space-between;
     color: var(--primary-grey);
+    transition: all 150ms ease-in-out;
 }
 .outer{
     width: 80%;
@@ -970,7 +971,7 @@
 }
 @media (min-width:1600px) {
     .main-wrapper{
-        margin-left: 17rem;
+        margin-left: 16.5rem;
     }
     .main-body{
         margin-left: 1rem;
@@ -1000,8 +1001,8 @@
         }
     }
     .arc{
-        width: 3.2rem;
-        height: 3.2rem;
+        width: 3.3rem;
+        height: 3.3rem;
     }
     .arc-inner{
         width: 3rem;
@@ -1026,6 +1027,9 @@
     }
     .date-select p{
         font-size: medium;
+    }
+    .activity-chart{
+        margin-top: 3rem;
     }
     .right-box{
         height: 9rem;
@@ -1062,5 +1066,23 @@
     }
     100% {
         transform: rotate(0deg);
+    }
+}
+
+@keyframes slide-in {
+    0% {
+        left: -250px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: -250px;
     }
 }
